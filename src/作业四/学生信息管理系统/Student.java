@@ -1,17 +1,17 @@
 package 作业四.学生信息管理系统;
 
 public class Student {
-    private String name;
+    String name;
     private int age;
-    private int id;//学号
-    private Birthdate birthdate;//出生日期
+    private String id;//学号
+    private String birthdate;//出生日期
     private String domain;//专业
     private String grade;//班级
 
     public Student() {
     }
 
-    public Student(String name, int age, int id, Birthdate birthdate, String domain, String grade) {
+    public Student(String name, int age, String id, String birthdate, String domain, String grade) {
         this.name = name;
         this.age = age;
         this.id = id;
@@ -26,7 +26,7 @@ public class Student {
                 "姓名='" + name + '\'' +
                 ", 年龄=" + age +
                 ", 学号=" + id +" "+
-                 birthdate +
+                 ",出生日期="+birthdate +
                 ", 专业='" + domain + '\'' +
                 ", 年级='" + grade + '\'' +
                 '}';
@@ -48,19 +48,19 @@ public class Student {
         this.age = age;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
-    public Birthdate getBirthdate() {
+    public String getBirthdate() {
         return birthdate;
     }
 
-    public void setBirthdate(Birthdate birthdate) {
+    public void setBirthdate(String birthdate) {
         this.birthdate = birthdate;
     }
 

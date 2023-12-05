@@ -9,7 +9,7 @@ public class Main {
         /*
         1. 创建一个ArrayList集合alist，向集合中添加数据，获取集合中元素的个数并打印出第三个元素。
         2. 创建LinkedList集合link,并向link添加四个元素。向link集合的第一个位置插入元素，移除该集合中第三个元素。
-        3. 分别使用Iterator 和foreach方式遍历以上两个集合对象。
+        3. 分别使用Iterator 和 foreach方式遍历以上两个集合对象。
          */
 
         ArrayList<String> alist = new ArrayList<String>();

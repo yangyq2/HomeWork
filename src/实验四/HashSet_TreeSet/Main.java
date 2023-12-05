@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         /*
         4.  创建HashSet集合，向其中添加 Student 类的对象实例，并输出。
-        5. 创建TreeSet集合对象，向集合中添加 Student 类的对象数据，并依据年龄和名字进行排序
+        5. 创建 TreeSet集合对象，向集合中添加 Student 类的对象数据，并依据年龄和名字进行排序
          */
         Student s1 = new Student("小明",18);
         Student s2 = new Student("小李",19);

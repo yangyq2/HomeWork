@@ -24,8 +24,8 @@ public class Main {
         }
         System.out.println("-------------------------------------------");
 
-        //7.创建TreeMap对象，存入4组 学号—成绩对元素，利用二叉树特性按成绩由高到低进行排序
-        TreeMap<Student, Integer> treeMap = new TreeMap<>(new Comparator<Student>() {
+        //7.创建TreeMap对象，存入4组 学号—成绩对元素，利用 二叉树 特性按成绩由高到低进行排序
+        TreeMap<Student, Integer> treeMap = new TreeMap<>(new Comparator<>() {
             @Override
             public int compare(Student o1, Student o2) {
 
