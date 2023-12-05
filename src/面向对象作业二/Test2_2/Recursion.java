@@ -1,4 +1,4 @@
-package com.tmp.Demo3;
+package 面向对象作业二.Test2_2;
 
 import java.util.Scanner;
 

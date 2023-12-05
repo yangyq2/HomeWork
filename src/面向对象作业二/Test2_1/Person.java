@@ -1,4 +1,4 @@
-package com.tmp.Demo2;
+package 面向对象作业二.Test2_1;
 
 public class Person {
     private String name;

@@ -1,4 +1,4 @@
-package com.tmp.Demo2;
+package 面向对象作业二.Test2_1;
 //学校类
 public class School {
     private String name="理工学院";
