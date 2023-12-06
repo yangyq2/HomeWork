@@ -1,9 +1,6 @@
 package 实验三.常用包装类;
 
-import java.util.function.DoubleToIntFunction;
-
 import static java.lang.Integer.parseInt;
-import static java.lang.Integer.valueOf;
 
 public class Test {
     public static void main(String[] args) {

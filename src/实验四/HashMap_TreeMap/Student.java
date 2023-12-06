@@ -28,7 +28,23 @@ public class Student{
 
     @Override
     public String toString() {
-        return name + "\t年龄:" + age+ "\t成绩："+Score;
+        return name + "\t年龄:" + age + "\t成绩：" + Score;
     }
 
+    @Override
+    public int hashCode() {
+        return this.name.hashCode();
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Student s = (Student) obj;
+
+        return this.age == s.age && this.name.equals(s.name);
+    }
 }

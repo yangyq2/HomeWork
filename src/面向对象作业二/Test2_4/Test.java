@@ -5,7 +5,7 @@ public class Test {
 
         Outer o = new Outer();
         o.showInner();   //调用成员内部类
-        o.showIner();  //调用方法内部类
+        o.showIne();  //调用方法内部类
         o.showStatic();  //调用静态方法
         o.showAnonymity();  //匿名类方法
     }

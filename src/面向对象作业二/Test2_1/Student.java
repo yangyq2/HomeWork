@@ -3,15 +3,13 @@ package 面向对象作业二.Test2_1;
 //学生类
 public class Student {
     private String name;
-    private double score;
     private int age;
 
     public Student() {
     }
 
-    public Student(String name, double score, int age) {
+    public Student(String name, int age) {
         this.name = name;
-        this.score = score;
         this.age = age;
     }
 
@@ -21,14 +19,6 @@ public class Student {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public double getScore() {
-        return score;
-    }
-
-    public void setScore(double score) {
-        this.score = score;
     }
 
     public int getAge() {

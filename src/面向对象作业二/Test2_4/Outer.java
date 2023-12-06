@@ -16,15 +16,15 @@ public class Outer implements Anonymity {
     }
 
     //方法内部类：方法中定义的类，他只能在当前方法中被使用
-    public void showIner(){
+    public void showIne(){
         //方法内部类
-        class Iner{
+        class Ine {
             void show(){
                 System.out.println("我是方法内部类");
             }
         }
 
-        Iner i=new Iner();
+        Ine i=new Ine();
         i.show();
     }
 

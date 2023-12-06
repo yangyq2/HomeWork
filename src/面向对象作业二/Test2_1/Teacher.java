@@ -2,7 +2,6 @@ package 面向对象作业二.Test2_1;
 //老师类
 public class Teacher {
     private String name;
-    private double score;
     private int age;
 
     public Teacher() {
@@ -19,14 +18,6 @@ public class Teacher {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public double getScore() {
-        return score;
-    }
-
-    public void setScore(double score) {
-        this.score = score;
     }
 
     public int getAge() {

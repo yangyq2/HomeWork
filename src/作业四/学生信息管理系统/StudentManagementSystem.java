@@ -13,32 +13,18 @@ public class StudentManagementSystem {
             System.out.println("请输入操作：1-添加学生，2-删除学生，3-查找学生，4-修改学生信息，5-模糊查询，6-显示全部学生信息，7-退出");
             int operation = scanner.nextInt();
             switch (operation) {
-                case 1:
-                    addStudent(scanner);
-                    break;
-                case 2:
-                    deleteStudent(scanner);
-                    break;
-                case 3:
-                    findStudent(scanner);
-                    break;
-                case 4:
-                    updateStudent(scanner);
-                    break;
-                case 5:
-                    fuzzySearch(scanner);
-                    break;
-                case 6:
-                    showStudent(scanner);
-                    break;
-                case 7:
-                    System.exit(0);
-                default:
-                    System.out.println("无效的操作，请重新输入");
+                case 1 -> addStudent(scanner);
+                case 2 -> deleteStudent(scanner);
+                case 3 -> findStudent(scanner);
+                case 4 -> updateStudent(scanner);
+                case 5 -> fuzzySearch(scanner);
+                case 6 -> showStudent();
+                case 7 -> System.exit(0);
+                default -> System.out.println("无效的操作，请重新输入");
             }
         }
     }
-    static void showStudent(Scanner scanner){
+    static void showStudent(){
         for(String str:studentMapById.keySet()){
             System.out.println("学生信息："+studentMapById.get(str));
         }

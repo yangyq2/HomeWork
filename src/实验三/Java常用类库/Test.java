@@ -24,8 +24,8 @@ public class Test {
         str3.append(",world!");//使用StringBuffer定义的字符串是可变的，在进行拼接的时候不会重新创建一个新的字符串
         System.out.println(str3);
 
-        int a =10;
-        Integer num = Integer.valueOf(a);//装箱
-        int value = num.intValue();//拆箱
+//        int a =10;
+//        Integer num = Integer.valueOf(a);//装箱
+//        int value = num.intValue();//拆箱
     }
 }

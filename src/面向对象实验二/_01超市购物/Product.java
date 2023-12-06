@@ -5,9 +5,6 @@ public class Product {
     private int value;//价格
     private int ProAmount;//商品数量
 
-    public Product() {
-    }
-
     public Product(String proName, int value) {
         ProName = proName;
         this.value = value;

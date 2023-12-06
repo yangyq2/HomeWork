@@ -13,7 +13,7 @@ public class Main {
         Student s1 = new Student("小明",18);
         Student s2 = new Student("小李",19);
         Student s3 = new Student("小红",17);
-        HashSet<Student> hashSet = new HashSet<Student>();
+        HashSet<Student> hashSet = new HashSet<>();
         hashSet.add(s3);
         hashSet.add(s1);
         hashSet.add(s2);

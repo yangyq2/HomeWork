@@ -1,7 +1,6 @@
 package 实验三.System_Runtime;
 
 import java.io.IOException;
-import java.io.InterruptedIOException;
 import java.util.Date;
 
 
@@ -25,7 +24,7 @@ public class Test {
         long startTime1 = System.currentTimeMillis();//获取当前时间
         String str1 = null;
         for (int i = 0; i < 10000; i++) {
-            str1+=i;
+            str1 += i;
         }
         long endTime1 = System.currentTimeMillis();
         System.out.println("String的用时："+(endTime1-startTime1));

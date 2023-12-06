@@ -15,8 +15,7 @@ public class Recursion {
         if(n == 1){      //1!=1
             return 1;
         }
-        int tmp = n * fac(n-1);  //5!=5*4！ //4！=4*3! //所以得出n!=n*(n-1)!
-        return tmp ;
+        return n * fac(n-1);
     }
 
 }
